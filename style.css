@@ -1,0 +1,77 @@
+@charset "utf-8";
+body{
+ 
+   background-color: rgb(12, 111, 204);
+}
+#taskInput{
+    width: 70%;
+    margin-bottom: 10px;
+}
+#taskList{
+    list-style-type: none;
+    padding: 0;
+    font-size: 25px;
+    font-family: bonello;
+    color: rgb(42, 11, 218);
+}
+
+.taskItem{
+    margin-bottom: 10px;
+    background-image: url(por\ do\ sol);
+    border: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.teskItem button{
+    margin-left: 10px;  
+    background:blue ;
+
+}
+#name{
+    background-image: url(por\ do\ sol);
+    border: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+}
+@font-face{
+    font-family:bonello;
+    src: url(Bonello.otf)
+}
+h1{
+    font-family:bonello;
+    src: url(Bonello.otf);
+    font-size: 100px;
+    color: #e7ecee;
+ 
+}
+input{
+    font-size: 25px;
+    color:#0000ff;
+    font-family: bonello;
+    src: url(Bonello.otf);
+    border-radius: 200px;
+}
+button{
+    font-size: 25px;
+    font-family: bonello;
+    color: #0000ff;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+footer{
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 100vh;
+    margin-bottom: 0;
+    transform: translate(-50%);
+    margin-left: 50%;
+    color: rgb(0, 0, 0);
+    font-family:bonello;
+    src: url(Bonello.otf);
+    font-size: 40px;  
+    background: #fffffff6;
+}
